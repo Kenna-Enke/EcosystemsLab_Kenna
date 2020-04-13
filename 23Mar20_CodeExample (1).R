@@ -17,8 +17,10 @@ y <- c(2,8,16,24)
 # II. Produce a plot of the data set
 
 plot(x,y)
+x<- c(1,4,8,12)
+y<- c(x^2)
 
-
+plot(x,y)
 # III. Commit changes to Github
 
 # Press the Version Control button (green, red, and gray) from the toolbar
